@@ -6,7 +6,6 @@ class MainContainer extends Component {
         return (
             <div className="wrapper">
                 <NavBar />
-                main container
             </div>
         );
     }
