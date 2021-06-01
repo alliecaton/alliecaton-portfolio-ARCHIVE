@@ -13,6 +13,10 @@ body {
   line-height: 20px;
 }
 
+img {
+  max-width:100%;
+}
+
 /* color classes */
 
 .yellow {
@@ -22,6 +26,8 @@ body {
 .dark-purple {
   color: #453F53;
 }
+
+
 
 
 .navbar-parent {
@@ -45,5 +51,18 @@ body {
 .home-container {
   display: flex; 
   flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5%;
 }
 
+.home-photo {
+  width: 30%;
+  height: 30%;
+}
+
+.portrait {
+  /* height: 20%;
+  width: auto; */
+  border-radius: 60%;
+}
