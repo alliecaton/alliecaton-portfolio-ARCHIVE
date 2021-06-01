@@ -2,8 +2,8 @@ import React from 'react';
 
 const HomePhoto = () => {
     return (
-        <div>
-            photo
+        <div className="home-photo">
+            {/* photo */}
         </div>
     );
 }

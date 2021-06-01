@@ -13,6 +13,17 @@ body {
   line-height: 20px;
 }
 
+/* color classes */
+
+.yellow {
+  color: #FFD644;
+}
+
+.dark-purple {
+  color: #453F53;
+}
+
+
 .navbar-parent {
   display: flex;
   flex-flow: row wrap;
