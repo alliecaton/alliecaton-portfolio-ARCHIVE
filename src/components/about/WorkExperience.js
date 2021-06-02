@@ -4,14 +4,16 @@ const WorkExperience = () => {
     return (
         <div>
             <p><span className="dark-purple big">function</span>  
-            <span className="yellow big"> allieCaton</span>  
+            <span className="yellow big"> workExperience</span>  
             <span className="dark-purple big"> {`{`}</span> </p>
             <div className="indented">
                 <div className="indiv-indented">
-                    <p className="yellow">full-stack developer</p>
-                    <p className="yellow">javascript</p>
-                    <p className="yellow">react + redux</p>
-                    <p className="yellow">ruby + ruby on rails</p>
+                    <p><span className="yellow">Associate Producer •</span><span className="teal"> FableVision Studios</span></p>
+                    <p className="dark-purple">2019 - 2020</p>
+                </div>
+                <div className="indiv-indented">
+                    <p><span className="yellow">Production Assistant •</span><span className="teal"> FableVision Studios</span></p>
+                    <p className="dark-purple">2018 - 2019</p>
                 </div>
             </div>
             <p className="dark-purple big"> {`}`} </p>
