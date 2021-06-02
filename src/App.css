@@ -110,8 +110,13 @@ img {
 
 /* about page styling  */
 
+.about-container-top {
+  margin: 40px;
+  padding: 20px;
+}
+
 .about-container {
-  margin-top: 60px;
+
   display: flex; 
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -120,7 +125,12 @@ img {
 }
 
 .about-parent {
-  width: 30%;
+  width: 40%;
+}
+
+.vertical-line {
+  border-left: 2px solid #BEB7CB;
+
 }
 
 @media screen and (max-width: 800px) {
