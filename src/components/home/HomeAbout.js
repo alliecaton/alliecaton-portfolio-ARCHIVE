@@ -5,7 +5,7 @@ const HomeAbout = () => {
     return (
         <div className="home-about">
             <p><span className="dark-purple big">function</span>  
-            <span className="yellow big"> allieCaton</span>  
+            <span className="yellow big"> allie</span>  
             <span className="dark-purple big"> {`{`}</span> </p>
             <div className="indented">
                 <div className="indiv-indented">
