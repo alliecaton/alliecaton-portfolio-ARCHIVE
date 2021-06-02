@@ -1,8 +1,6 @@
 import React from 'react';
-import Links from './Links'
 
-
-const HomeAbout = () => {
+const WorkExperience = () => {
     return (
         <div>
             <p><span className="dark-purple big">function</span>  
@@ -17,11 +15,8 @@ const HomeAbout = () => {
                 </div>
             </div>
             <p className="dark-purple big"> {`}`} </p>
-            <div>
-            <Links />
-        </div>
         </div>
     );
 }
 
-export default HomeAbout;
+export default WorkExperience;

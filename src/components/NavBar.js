@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import React from 'react';
+import { Link } from 'react-scroll'
 
-class NavBar extends Component {
-    render() {
+const NavBar = () => {
+    
         return (
-            <div className="navbar-parent">
+            <div className="navbar-parent" onScroll={(e) => this.handleScroll(e)}>
                 <Link 
                     to="homecontainer"
                     spy={true}
@@ -36,6 +36,7 @@ class NavBar extends Component {
             </div>
         );
     }
-}
+
+
 
 export default NavBar;
