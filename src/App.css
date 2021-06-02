@@ -27,7 +27,13 @@ img {
   color: #453F53;
 }
 
+.big {
+  font-size: 24px;
+}
 
+.indented {
+  padding-left: 40px;
+}
 
 
 .navbar-parent {

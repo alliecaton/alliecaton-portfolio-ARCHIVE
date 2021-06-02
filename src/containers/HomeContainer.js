@@ -4,9 +4,14 @@ import HomePhoto from '../components/home/HomePhoto'
 
 const HomeContainer = () => {
     return (
-        <div className="home-container">
-            <HomeAbout />
-            <HomePhoto />
+        <div>
+            <div className="home-container">
+                <HomeAbout />
+                <HomePhoto />
+            </div>
+            <div>
+                {/* outside of flexbox console.log links */}
+            </div>
         </div>
     );
 }
