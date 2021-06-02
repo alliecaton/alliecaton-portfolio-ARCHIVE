@@ -17,7 +17,7 @@ img {
   max-width:100%;
 }
 
-/* color classes */
+/* generalized text classes */
 
 .yellow {
   color: #FFD644;
@@ -27,14 +27,27 @@ img {
   color: #453F53;
 }
 
+.light-purple {
+  color: #BEB7CB;
+}
+
+.teal {
+  color: #d9f3f9;
+}
+
 .big {
   font-size: 24px;
 }
 
 .indented {
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 40px;
+  border-left: 2px solid #BEB7CB;
+  
 }
 
+/* nav styling  */
 
 .navbar-parent {
   display: flex;
@@ -54,6 +67,8 @@ img {
   color: #453F53;
 }
 
+/* home page styling */
+
 .home-container {
   display: flex; 
   flex-flow: row wrap;
@@ -68,7 +83,6 @@ img {
 }
 
 .portrait {
-  /* height: 20%;
-  width: auto; */
   border-radius: 60%;
 }
+

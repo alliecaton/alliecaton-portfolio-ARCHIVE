@@ -6,10 +6,12 @@ const HomeAbout = () => {
             <p><span className="dark-purple big">function</span>  
             <span className="yellow big"> allieCaton</span>  
             <span className="dark-purple big"> {`{`}</span> </p>
-                <p className="yellow indented">full-stack developer</p>
-                <p className="yellow indented">javascript</p>
-                <p className="yellow indented">react + redux</p>
-                <p className="yellow indented">ruby + ruby on rails</p>
+            <div className="indented">
+                <p className="yellow ">full-stack developer</p>
+                <p className="yellow ">javascript</p>
+                <p className="yellow ">react + redux</p>
+                <p className="yellow">ruby + ruby on rails</p>
+            </div>
             <p className="dark-purple big"> {`}`} </p>
         </div>
     );

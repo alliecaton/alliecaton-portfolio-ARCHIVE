@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeAbout from '../components/home/HomeAbout'
 import HomePhoto from '../components/home/HomePhoto'
+import Links from '../components/home/Links'
 
 const HomeContainer = () => {
     return (
@@ -10,7 +11,7 @@ const HomeContainer = () => {
                 <HomePhoto />
             </div>
             <div>
-                {/* outside of flexbox console.log links */}
+                <Links />
             </div>
         </div>
     );
