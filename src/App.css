@@ -52,6 +52,20 @@ img {
   padding-left: 20px;
 }
 
+.icons {
+  vertical-align: middle;
+}
+
+.icon > * {
+  fill: #453F53;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.icon > *:hover {
+  fill: #BEB7CB;
+}
+
 /* nav styling  */
 
 .navbar-parent {

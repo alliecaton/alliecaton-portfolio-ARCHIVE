@@ -1,4 +1,5 @@
 import React from 'react';
+import Links from './Links'
 
 const HomeAbout = () => {
     return (
@@ -15,6 +16,9 @@ const HomeAbout = () => {
                 </div>
             </div>
             <p className="dark-purple big"> {`}`} </p>
+            <div>
+            <Links />
+        </div>
         </div>
     );
 }
