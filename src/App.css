@@ -120,7 +120,6 @@ a {
 }
 
 .about-container {
-
   display: flex; 
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -141,4 +140,26 @@ a {
   .about-parent {
     width: 90%;
   }
+}
+
+/* projects page styling */
+
+.project-parent {
+  width: 40%;
+}
+
+.projects-container-top {
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.projects-container {
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5%;
 }
