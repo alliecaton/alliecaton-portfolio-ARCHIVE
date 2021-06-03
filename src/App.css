@@ -24,8 +24,9 @@ button {
   border: none;
   text-decoration: none;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
   color: #453F53;
+  vertical-align: middle;
 }
 
 button:hover {
@@ -187,3 +188,14 @@ button:hover {
   margin: 10px;
   text-decoration: none;
 }
+
+.gh-button {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.gh-button:hover {
+  background-color:#453F53;
+}
+
