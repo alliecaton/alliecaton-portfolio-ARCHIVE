@@ -35,6 +35,22 @@ button:hover {
   cursor: pointer;
 }
 
+input {
+  color: #453F53;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  margin: 5px;
+}
+
+textarea {
+  margin: 5px;
+  height:200px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+}
+
 /* generalized text classes */
 
 .yellow {
@@ -208,3 +224,27 @@ button:hover {
   }
 }
 
+/* contact form styling */
+
+.form-flex {
+  padding: 20px;
+  border-radius: 20px;
+  /* background-color: #BEB7CB; */
+  width: 50%;
+  display: flex; 
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.contact-container-top {
+  margin: 40px;
+  padding: 20px;
+}
+
+.top-form-flex {
+  padding: 20px;
+  width: 100%;
+  display: flex; 
+  flex-flow: column wrap;
+  justify-content: center;
+}
