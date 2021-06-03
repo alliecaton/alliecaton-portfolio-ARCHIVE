@@ -6,7 +6,7 @@ class Projects extends Component {
     
     renderProjects = () => {
         return projectData.map(project => (
-            <div key={project.id}>
+            <div key={project.id} className="proj-block">
                 <Project 
                 title={project.title}
                 description={project.description}
@@ -20,7 +20,7 @@ class Projects extends Component {
     
     render() {
         return (
-            <div>
+            <div className="projects-container">
                 {this.renderProjects()}
             </div>
         );

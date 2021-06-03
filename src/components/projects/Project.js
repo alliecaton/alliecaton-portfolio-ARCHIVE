@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const Project = (props) => {
     return (
-        <div className="">
+        <div>
             <p><span className="dark-purple big">function</span>  
             <span className="yellow big"> {props.title}</span>  
             <span className="dark-purple big"> {`{`}</span> </p>
