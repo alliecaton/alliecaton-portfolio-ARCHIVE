@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import{ init } from 'emailjs-com';
 
 class ContactForm extends Component {
 
@@ -33,7 +34,7 @@ class ContactForm extends Component {
                     <label className="teal" htmlFor="message">message:</label>
                     <textarea id="message" name="message" onChange={this.handleChange}></textarea>
 
-                    <input type="submit" value="Send Message" />
+                    <input type="submit" value="Send!" />
                 </form>
             </div>
         );
