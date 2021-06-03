@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import{ init } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 class ContactForm extends Component {
 
@@ -17,11 +17,23 @@ class ContactForm extends Component {
         }))
     }
 
+    handleSubmit = (e) => {
+        e.preventDefault()
+
+        emailjs.sendForm('process.env.REACT_APP_SERVICE_ID', 'process.env.REACT_APP_TEMPLATE_ID', e.target, 'process.env.REACT_APP_YOUR_USER_ID')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+
+
+    }
+
     render() {
-        console.log(this.state)
         return (
             <div className="top-form-flex">
-                <form className="form-flex">
+                <form className="form-flex" onSubmit={this.handleSubmit}>
                     <label className="teal">name:</label>
                     <input type="text" name="name" onChange={this.handleChange} />
 
