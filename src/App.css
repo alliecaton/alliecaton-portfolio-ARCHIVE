@@ -20,7 +20,18 @@ a {
 }
 
 button {
-  color: blue;
+  background-color: #BEB7CB;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #453F53;
+}
+
+button:hover {
+  background-color: #453F53;
+  color: #BEB7CB;
+  cursor: pointer;
 }
 
 /* generalized text classes */
@@ -95,6 +106,7 @@ button {
 
 .nav-link:hover {
   color: #453F53;
+  cursor: pointer;
 }
 
 /* home page styling */
@@ -152,6 +164,11 @@ button {
   width: 50%;
 }
 
+.project-container-top {
+  margin: 40px;
+  padding: 20px;
+}
+
 .projects-container {
   display: flex; 
   flex-flow: row wrap;
@@ -163,5 +180,10 @@ button {
 .proj-block {
   width: 40%;
   margin: 40px;
-  padding: 10px;
+}
+
+.proj-link {
+  color: #BEB7CB;
+  margin: 10px;
+  text-decoration: none;
 }

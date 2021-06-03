@@ -11,8 +11,8 @@ const Project = (props) => {
                 <div className="indiv-indented">
                     <p className="yellow">{props.description}</p>
                 </div>
-                    <a href={props.github} className="light-purple project-gh" target="_blank" rel="noreferrer noopener"><AiFillGithub /></a>
-                    <a href={props.demo} className="light-purple" target="_blank" rel="noreferrer noopener"><button>demo</button></a>
+                    <a href={props.github} className="light-purple proj-link" target="_blank" rel="noreferrer noopener"><AiFillGithub /></a>
+                    <a href={props.demo} className="light-purple proj-link" target="_blank" rel="noreferrer noopener"><button>demo</button></a>
             </div>
             <p className="dark-purple big"> {`}`} </p>
         </div>
