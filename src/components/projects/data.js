@@ -12,7 +12,7 @@ export const projectData = [
         title: "music-r", 
         description: "SPA for finding and saving curated song recommendations. ",
         github: "https://github.com/alliecaton/jsmusicrandomizer", 
-        demo: "plausible-nest.surge.sh/"  
+        demo: "http://plausible-nest.surge.sh/"  
     }, 
     {
         id: 3,

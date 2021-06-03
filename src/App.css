@@ -181,7 +181,8 @@ button:hover {
 
 .proj-block {
   width: 40%;
-  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .proj-link {
@@ -199,5 +200,11 @@ button:hover {
 .gh-button:hover {
   background-color:#453F53;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .proj-block {
+    width: 90%;
+  }
 }
 
