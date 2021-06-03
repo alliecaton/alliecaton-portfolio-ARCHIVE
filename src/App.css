@@ -81,6 +81,7 @@ button:hover {
 
 .icon > *:hover {
   fill: #BEB7CB;
+  border-radius: 5px;
 }
 
 /* nav styling  */
@@ -197,5 +198,6 @@ button:hover {
 
 .gh-button:hover {
   background-color:#453F53;
+  border-radius: 5px;
 }
 
