@@ -6,12 +6,13 @@ class Projects extends Component {
     
     renderProjects = () => {
         return projectData.map(project => (
-            <div>
+            <div key={project.id}>
                 <Project 
                 title={project.title}
                 description={project.description}
                 github={project.github}
                 demo={project.demo}
+                id={project.id}
                 />
             </div>
         ))

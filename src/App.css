@@ -145,7 +145,7 @@ a {
 /* projects page styling */
 
 .project-parent {
-  width: 40%;
+  width: 50%;
 }
 
 .projects-container-top {
@@ -162,9 +162,4 @@ a {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 5%;
-}
-
-.project-gh {
-  width: 20px;
-
 }
