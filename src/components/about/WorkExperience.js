@@ -17,6 +17,7 @@ const WorkExperience = () => {
                 </div>
             </div>
             <p className="dark-purple big"> {`}`} </p>
+            <a href="https://www.linkedin.com/in/alliecaton/" className="light-purple nav-link" target="_blank" rel="noreferrer noopener">{`view more ->`} </a>
         </div>
     );
 }
