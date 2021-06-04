@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 class ContactForm extends Component {
 
     state = {
-        name: '', 
+        from_name: '', 
         email: '',
         subject: '', 
         message: ''
@@ -20,7 +20,7 @@ class ContactForm extends Component {
     handleSubmit = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm('process.env.REACT_APP_SERVICE_ID', 'process.env.REACT_APP_TEMPLATE_ID', e.target, 'process.env.REACT_APP_YOUR_USER_ID')
+        emailjs.sendForm('service_36eqziu', 'template_mb1ober', e.target, 'user_k8P1ZIwiNW2urIBeetEiU')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -35,7 +35,7 @@ class ContactForm extends Component {
             <div className="top-form-flex">
                 <form className="form-flex" onSubmit={this.handleSubmit}>
                     <label className="teal">name:</label>
-                    <input type="text" name="name" onChange={this.handleChange} />
+                    <input type="text" name="from_name" onChange={this.handleChange} />
 
                     <label className="teal">email:</label>
                     <input type="text" name="email" onChange={this.handleChange} />
