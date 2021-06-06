@@ -100,6 +100,10 @@ textarea {
   border-radius: 5px;
 }
 
+.paragraph-link {
+  text-decoration: underline;
+}
+
 /* nav styling  */
 
 .navbar-parent {
@@ -243,11 +247,11 @@ textarea {
 }
 
 .top-form-flex {
-  padding: 20px;
+  /* padding: 20px; */
   width: 100%;
   display: flex; 
-  flex-flow: column wrap;
-  justify-content: center;
+  flex-flow: row wrap;
+  /* justify-content: center; */
 }
 
 input[type=submit] {
