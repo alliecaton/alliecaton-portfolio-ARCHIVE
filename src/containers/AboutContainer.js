@@ -14,7 +14,7 @@ const AboutContainer = ({ id }) => {
                     <WorkExperience />
                 </div>
             </div>
-            <p className="dark-purple big"> {`}`} </p>
+            <p className="dark-purple big"> {`}`}</p>
         </div>
         
     );

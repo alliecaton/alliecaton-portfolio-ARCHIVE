@@ -8,8 +8,8 @@ const Description = () => {
             <span className="dark-purple big"> {`{`}</span> </p>
             <div className="indented">
                 <div className="indiv-indented">
-                    <p className="yellow">I'm Allie, a full-stack web developer interested in building simple, clean, effective websites and applications with people who are similarly passionate. ___ </p>
-                    <p className="yellow">In my free time, I dabble in building electronic hardware, drawing, reading, and mooning over my mechanical keyboards. 
+                    <p className="yellow">I'm Allie, a full-stack web developer interested in building simple, clean, effective websites and applications with people who are similarly passionate.</p>
+                    <p className="yellow">In my free time, I dabble in building electronic hardware, drawing, reading, and mooning over my mechanical keyboard. 
                     </p>
                     <p className="yellow">Here are a few technologies I've been working with recently:</p>
                     <ul>

@@ -13,6 +13,9 @@ const ContactContainer = ({ id }) => {
                 </div>
             </div>
             <p className="dark-purple big"> {`}`} </p>
+            <p className="teal">console.log(goodbye)</p>
+            <p className="light-purple">{`>>`} thanks for visiting! :) </p>
+            <p className="light-purple">{`>>`} design inspired by my favorite text editor theme, <a href="https://sailorhg.github.io/fairyfloss/">Fairyfloss</a></p>
         </div>
     );
 }
