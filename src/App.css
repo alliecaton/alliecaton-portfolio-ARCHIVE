@@ -248,3 +248,17 @@ textarea {
   flex-flow: column wrap;
   justify-content: center;
 }
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: #BEB7CB;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;
+}
+
+input[type=submit]:hover {
+  background: #453F53;
+}

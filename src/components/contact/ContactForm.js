@@ -47,7 +47,7 @@ class ContactForm extends Component {
                     <label className="teal" htmlFor="message">message:</label>
                     <textarea id="message" value={this.state.message} name="message" onChange={this.handleChange}></textarea>
 
-                    <input type="submit" value="Send!" />
+                    <input type="submit" value="Send Message!" />
                 </form>
             </div>
         );
