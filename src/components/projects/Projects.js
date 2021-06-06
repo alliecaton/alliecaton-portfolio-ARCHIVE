@@ -10,6 +10,7 @@ class Projects extends Component {
                 <Project 
                 title={project.title}
                 description={project.description}
+                tech={project.tech}
                 github={project.github}
                 demo={project.demo}
                 id={project.id}
