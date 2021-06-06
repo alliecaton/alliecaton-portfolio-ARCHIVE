@@ -12,7 +12,7 @@ export const projectData = [
         id: 2,
         title: "music-r", 
         description: "SPA for finding and saving curated song recommendations. ",
-        tech: "Vanilla Javascript • Ruby on Rails • ActiveRecord",
+        tech: "Javascript • Ruby on Rails • ActiveRecord",
         github: "https://github.com/alliecaton/jsmusicrandomizer", 
         demo: "http://plausible-nest.surge.sh/"  
     }, 
