@@ -4,7 +4,7 @@ const WorkExperience = () => {
     return (
         <div>
             <p><span className="dark-purple big">function</span>  
-            <span className="yellow big"> workExperience</span>  
+            <span className="yellow big"> workExperience<span className="dark-purple">()</span></span>  
             <span className="dark-purple big"> {`{`}</span> </p>
             <div className="indented">
                 <div className="indiv-indented">

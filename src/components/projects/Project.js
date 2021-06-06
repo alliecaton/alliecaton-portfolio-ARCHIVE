@@ -5,7 +5,7 @@ const Project = (props) => {
     return (
         <div>
             <p><span className="dark-purple big">function</span>  
-            <span className="yellow big"> {props.title}</span>  
+            <span className="yellow big"> {props.title}<span className="dark-purple">()</span></span>  
             <span className="dark-purple big"> {`{`}</span> </p>
             <div className="indented">
                 <div className="indiv-indented">

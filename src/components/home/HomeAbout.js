@@ -6,7 +6,7 @@ const HomeAbout = () => {
     return (
         <div>
             <p><span className="dark-purple big">function</span>  
-            <span className="yellow big"> allieCaton</span>  
+            <span className="yellow big"> allieCaton<span className="dark-purple">()</span></span>  
             <span className="dark-purple big"> {`{`}</span> </p>
             <div className="indented">
                 <div className="indiv-indented">
