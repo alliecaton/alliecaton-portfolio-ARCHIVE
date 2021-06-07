@@ -4,7 +4,8 @@ import { Link } from 'react-scroll'
 const NavBar = () => {
     
         return (
-            <div className="navbar-parent" onScroll={(e) => this.handleScroll(e)}>
+            <>
+            <div className="navbar-home-container">
                 <Link 
                     to="homecontainer"
                     spy={true}
@@ -12,6 +13,9 @@ const NavBar = () => {
                     offset={-70}
                     duration={500}
                     className="nav-link home-icon">✦</Link>
+                </div>
+            <div className="nav-large">
+            <div className="navbar-parent">
                 <Link 
                     to="aboutcontainer"
                     spy={true}
@@ -34,6 +38,8 @@ const NavBar = () => {
                     duration={500}
                     className="nav-link">contact</Link> 
             </div>
+            </div>
+            </>
         );
     }
 
