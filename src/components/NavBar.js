@@ -11,7 +11,7 @@ const NavBar = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className="nav-link">home</Link>
+                    className="nav-link home-icon">✦</Link>
                 <Link 
                     to="aboutcontainer"
                     spy={true}

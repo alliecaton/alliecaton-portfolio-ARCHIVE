@@ -120,6 +120,7 @@ textarea {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
+  align-items: center;
   margin: 20px;
   padding-right: 60px;
   transition: 'top 0.6s';
@@ -136,6 +137,11 @@ textarea {
 .nav-link:hover {
   color: #453F53;
   cursor: pointer;
+}
+
+.home-icon {
+  font-size: 35px;
+  margin-top: 0px;
 }
 
 /* home page styling */
