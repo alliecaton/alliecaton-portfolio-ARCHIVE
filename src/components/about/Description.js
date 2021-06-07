@@ -13,9 +13,9 @@ const Description = () => {
                     </p>
                     <p className="yellow">Here are a few technologies I've been working with recently:</p>
                     <ul>
-                        <p className="teal"> <span className="light-purple">></span> Javascript (ES6+)</p>
-                        <p className="teal"><span className="light-purple">></span>  Ruby + Ruby on Rails</p>
-                        <p className="teal"><span className="light-purple">></span> React</p>
+                        <p className="teal"> <span className="light-purple">{`>`}</span> Javascript (ES6+)</p>
+                        <p className="teal"><span className="light-purple">{`>`}</span>  Ruby + Ruby on Rails</p>
+                        <p className="teal"><span className="light-purple">{`>`}</span> React</p>
                     </ul>
                 </div>
             </div>
