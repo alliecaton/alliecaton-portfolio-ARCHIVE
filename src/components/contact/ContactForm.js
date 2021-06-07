@@ -20,7 +20,7 @@ class ContactForm extends Component {
     handleSubmit = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
         .then((result) => {
             console.log(result.text);
             this.setState({from_name: '', email: '', subject: '', message: ''})
@@ -31,7 +31,7 @@ class ContactForm extends Component {
     }
 
     render() {
-        console.log(this.state)
+        console.log(process.env.REACT_APP_USER_ID, process.env.REACT_APP_TEMPLATE_ID, process.env.REACT_APP_SERVICE_ID);
         return (
             <div className="indented-no-line">
                 <form onSubmit={this.handleSubmit}>
