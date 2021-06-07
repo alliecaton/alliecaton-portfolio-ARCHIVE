@@ -20,7 +20,7 @@ class ContactForm extends Component {
     handleSubmit = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm('service_36eqziu', 'template_mb1ober', e.target, 'user_k8P1ZIwiNW2urIBeetEiU')
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
         .then((result) => {
             console.log(result.text);
             this.setState({from_name: '', email: '', subject: '', message: ''})

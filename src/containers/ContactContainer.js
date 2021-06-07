@@ -16,7 +16,7 @@ const ContactContainer = ({ id }) => {
             </div>
             <p className="dark-purple big"> {`}`} </p>
             <p className="teal">console.log(credits, goodbye)</p>
-            <p className="light-purple">{`>>`} design inspired by my favorite text editor theme, <a className="paragraph-link light-purple" href="https://sailorhg.github.io/fairyfloss/">Fairyfloss</a></p>
+            <p className="light-purple">{`>>`} design inspired by my favorite text editor theme, <a className="paragraph-link light-purple" href="https://sailorhg.github.io/fairyfloss/" target="_blank" rel="noreferrer noopener">Fairyfloss</a></p>
             <p className="light-purple">{`>>`} thanks for visiting! :) 
             
             <div className="dark-purple big icons indented-no-line">
