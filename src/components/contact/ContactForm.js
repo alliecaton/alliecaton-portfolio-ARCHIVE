@@ -33,9 +33,13 @@ class ContactForm extends Component {
     render() {
         console.log(this.state)
         return (
-            <div >
-                <form className="top-form-flex" onSubmit={this.handleSubmit}>
+            <div className="indented-no-line">
+                <form onSubmit={this.handleSubmit}>
+                <div className="top-form-flex">
                 <div className="form-flex">
+
+                    <p className="teal">to: alliecaton3@gmail.com</p><br></br>
+
                     <label className="teal">name:</label>
                     <input type="text" value={this.state.from_name} name="from_name" onChange={this.handleChange} />
 
@@ -46,10 +50,11 @@ class ContactForm extends Component {
                     <input type="text" value={this.state.subject} name="subject" onChange={this.handleChange} />
                 </div>
                     <div>
-                        <label className="teal" htmlFor="message">message:</label>
+                        <label className="teal message-box" htmlFor="message">message:</label><br></br>
                         <textarea id="message" value={this.state.message} name="message" onChange={this.handleChange}></textarea>
                     </div>
                     <input type="submit" value="Send Message!" />
+                    </div>
                 </form>
             </div>
         );
