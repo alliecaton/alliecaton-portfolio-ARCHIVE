@@ -247,7 +247,7 @@ textarea {
 
 @media screen and (max-width: 800px) {
   .proj-block {
-    width: 90%;
+    width: 100%;
   }
 }
 
