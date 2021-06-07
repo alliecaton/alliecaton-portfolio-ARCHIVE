@@ -164,12 +164,13 @@ textarea {
 }
 
 .home-photo {
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
+  padding: 20px;
 }
 
 .portrait {
-  border-radius: 60%;
+  border-radius: 50%;
 }
 
 /* about page styling  */
@@ -268,7 +269,7 @@ textarea {
   border-radius: 20px;
   height: 175px;
   width: 500px;
-  margin-top: 50px;
+  margin-top: 52px;
   display: flex; 
   flex-flow: column;
   justify-content: center;
