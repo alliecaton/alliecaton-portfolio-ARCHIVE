@@ -4,12 +4,12 @@ import HomePhoto from '../components/home/HomePhoto'
 
 const HomeContainer = ({ id }) => {
     return (
-        <div>
+
             <div className="home-container" id={id}>
                 <HomeAbout /> 
                 <HomePhoto />
             </div>
-        </div>
+
     );
 }
 
