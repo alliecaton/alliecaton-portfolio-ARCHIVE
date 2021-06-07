@@ -20,6 +20,7 @@ a {
 }
 
 button {
+  font-family: 'Roboto Mono', monospace;
   background-color: #BEB7CB;
   border: none;
   text-decoration: none;
@@ -37,6 +38,7 @@ button:hover {
 
 input {
   color: #453F53;
+  font-family: 'Roboto Mono', monospace;
   border-radius: 5px;
   border: none;
   height: 30px;
@@ -45,6 +47,7 @@ input {
 
 textarea {
   margin: 5px;
+  font-family: 'Roboto Mono', monospace;
   height:200px;
   text-decoration: none;
   border-radius: 5px;
