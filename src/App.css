@@ -254,6 +254,7 @@ textarea {
 
 .form-flex {
   padding: 20px;
+  padding-bottom: 5px;
   border-radius: 20px;
   /* background-color: #BEB7CB; */
   width: 30%;
@@ -263,8 +264,20 @@ textarea {
 }
 
 .message-box {
-  width: 80%;
-  /* height: 30%; */
+  padding: 20px;
+  border-radius: 20px;
+  height: 175px;
+  width: 500px;
+  margin-top: 50px;
+  display: flex; 
+  flex-flow: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .message-box {
+    margin-top: 10px;
+  }
 }
 
 .contact-container-top {
@@ -273,17 +286,15 @@ textarea {
 }
 
 .top-form-flex {
-  /* padding: 20px; */
-  /* width: 50%; */
   display: flex; 
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
-  /* justify-content: center; */
 }
 
 input[type=submit] {
     padding:5px 15px; 
+    margin-left: 25px;
     background: #BEB7CB;
     border:0 none;
     cursor:pointer;

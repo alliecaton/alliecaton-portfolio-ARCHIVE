@@ -36,25 +36,25 @@ class ContactForm extends Component {
             <div className="indented-no-line">
                 <form onSubmit={this.handleSubmit}>
                 <div className="top-form-flex">
-                <div className="form-flex">
+                    <div className="form-flex">
 
-                    <p className="teal">to: alliecaton3@gmail.com</p><br></br>
+                        <p className="teal">to: <span className="light-purple">alliecaton3@gmail.com</span></p><br></br>
 
-                    <label className="teal">name:</label>
-                    <input type="text" value={this.state.from_name} name="from_name" onChange={this.handleChange} />
+                        <label className="teal">name:</label>
+                        <input type="text" value={this.state.from_name} name="from_name" onChange={this.handleChange} />
 
-                    <label className="teal">email:</label>
-                    <input type="text" value={this.state.email} name="email" onChange={this.handleChange} />
+                        <label className="teal">email:</label>
+                        <input type="text" value={this.state.email} name="email" onChange={this.handleChange} />
 
-                    <label className="teal">subject:</label>
-                    <input type="text" value={this.state.subject} name="subject" onChange={this.handleChange} />
-                </div>
-                    <div>
-                        <label className="teal message-box" htmlFor="message">message:</label><br></br>
+                        <label className="teal">subject:</label>
+                        <input type="text" value={this.state.subject} name="subject" onChange={this.handleChange} />
+                    </div>
+                    <div className="message-box">
+                        <label className="teal" htmlFor="message">message:</label><br></br>
                         <textarea id="message" value={this.state.message} name="message" onChange={this.handleChange}></textarea>
                     </div>
-                    <input type="submit" value="Send Message!" />
                     </div>
+                        <input type="submit" value="Send Message!" />
                 </form>
             </div>
         );
