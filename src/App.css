@@ -308,12 +308,14 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px; 
     color: white;
+    -webkit-appearance: none;
 }
 
 input[type=submit]:hover {
   background: #453F53;
+  -webkit-appearance: none;
 }
-
+/* 
 @media all and (max-width: 800px) {
   input[type=submit] {
     padding:5px 15px; 
@@ -331,4 +333,4 @@ input[type=submit]:hover {
   input[type=submit]:hover {
     background: #453F53;
   }
-}
+} */
