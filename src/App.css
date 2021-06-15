@@ -197,9 +197,16 @@ textarea {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
   .about-parent {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .about-container-top {
+    margin: 25px;
+    padding: 10px;
   }
 }
 
@@ -212,6 +219,13 @@ textarea {
 .project-container-top {
   margin: 40px;
   padding: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .project-container-top {
+    margin: 25px;
+    padding: 10px;
+  }
 }
 
 .projects-container {
@@ -245,7 +259,15 @@ textarea {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
+  .proj-block {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 760px) {
   .proj-block {
     width: 100%;
     margin-left: 15px;
@@ -293,6 +315,13 @@ textarea {
 .contact-container-top {
   margin: 40px;
   padding: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .contact-container-top {
+    margin: 25px;
+    padding: 10px;
+  }
 }
 
 .top-form-flex {
