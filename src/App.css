@@ -314,7 +314,7 @@ input[type=submit]:hover {
   background: #453F53;
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
   input[type=submit] {
     padding:5px 15px; 
     margin-left: 25px;
@@ -327,7 +327,7 @@ input[type=submit]:hover {
 }
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
   input[type=submit]:hover {
     background: #453F53;
   }
