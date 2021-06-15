@@ -252,8 +252,8 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
-  .about-container-top {
-    margin: 20px;
+  .about-parent {
+    width: 100%;
   }
 }
 
