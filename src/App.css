@@ -251,6 +251,12 @@ textarea {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .about-container-top .project-container-top {
+    margin: 20px;
+  }
+}
+
 /* contact form styling */
 
 .form-flex {
@@ -306,4 +312,23 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background: #453F53;
+}
+
+@media screen and (max-width: 800px) {
+  input[type=submit] {
+    padding:5px 15px; 
+    margin-left: 25px;
+    background: #BEB7CB;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;
+}
+}
+
+@media screen and (max-width: 800px) {
+  input[type=submit]:hover {
+    background: #453F53;
+  }
 }
