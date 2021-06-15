@@ -248,12 +248,15 @@ textarea {
 @media screen and (max-width: 800px) {
   .proj-block {
     width: 100%;
+    margin-left: 15px;
+    margin-right: 0px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .about-parent {
-    width: 100%;
+  .about-parent .proj-block {
+    width: 90%;
+    /* margin: 0px; */
   }
 }
 
