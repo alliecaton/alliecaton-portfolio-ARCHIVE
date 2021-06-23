@@ -11,11 +11,13 @@ const Description = () => {
                     <p className="yellow">I'm Allie, a full-stack web developer interested in building simple, clean, effective websites and applications with people who are similarly passionate.</p>
                     <p className="yellow">In my free time, I dabble in building electronic hardware, drawing, reading, and mooning over my mechanical keyboard. 
                     </p>
-                    <p className="yellow">Here are a few technologies I've been working with recently:</p>
+                    <p className="yellow">Here are a few technologies I've been working and experimenting with recently:</p>
                     <ul>
                         <p className="teal"> <span className="light-purple">{`>`}</span> Javascript (ES6+)</p>
                         <p className="teal"><span className="light-purple">{`>`}</span>  Ruby + Ruby on Rails</p>
                         <p className="teal"><span className="light-purple">{`>`}</span> React</p>
+                        <p className="teal"><span className="light-purple">{`>`}</span> Vue.js</p>
+                        <p className="teal"><span className="light-purple">{`>`}</span> Typescript</p>
                     </ul>
                 </div>
             </div>
