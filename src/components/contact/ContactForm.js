@@ -17,23 +17,22 @@ class ContactForm extends Component {
         }))
     }
 
-    // handleSubmit = (e) => {
-    //     e.preventDefault()
+    handleSubmit = (e) => {
+        e.preventDefault()
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+        .then((result) => {
+            console.log(result.text);
+            this.setState({from_name: '', email: '', subject: '', message: ''})
+        }, (error) => {
+            console.log(error.text);
+        });
 
-    //     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
-    //     .then((result) => {
-    //         console.log(result.text);
-    //         this.setState({from_name: '', email: '', subject: '', message: ''})
-    //     }, (error) => {
-    //         console.log(error.text);
-    //     });
-
-    // }
+    }
 
     render() {
         return (
             <div className="indented-no-line">
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={(e) => this.handleSubmit(e)}>
                 <div className="top-form-flex">
                     <div className="form-flex">
 
