@@ -28,8 +28,8 @@ const Description = () => {
 					</p>
 					<ul>
 						<p className='teal'>
-							<span className='light-purple'>{`>`}</span> Javascript +
-							Typescript
+							<span className='light-purple'>{`>`}</span> JavaScript +
+							TypeScript
 						</p>
 						<p className='teal'>
 							<span className='light-purple'>{`>`}</span> Vue (Options API +

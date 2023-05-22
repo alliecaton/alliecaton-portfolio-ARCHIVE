@@ -15,7 +15,7 @@ const HomeAbout = () => {
 			<div className='indented'>
 				<div className='indiv-indented'>
 					<p className='yellow'>frontend developer</p>
-					<p className='yellow'>javascript</p>
+					<p className='yellow'>javascript + typescript</p>
 					<p className='yellow'>vue + nuxt</p>
 					<p className='yellow'>react</p>
 					<p className='yellow'>nodeJS + express</p>
