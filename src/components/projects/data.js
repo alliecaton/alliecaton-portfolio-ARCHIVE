@@ -1,28 +1,27 @@
 export const projectData = [
-
-    {
-        id: 1,
-        title: "Fruit Stand", 
-        description: "Demo e-commerce site for a smoothie shop with custom smoothie-builder and cart/checkout functionality.",
-        tech: "React • Redux • Ruby on Rails • ActiveRecord",
-        github: "https://github.com/alliecaton/smoothie-shop-frontend", 
-        demo: "https://alliecaton.github.io/smoothie-shop-frontend/"    
-    }, 
-    {
-        id: 2,
-        title: "music-r", 
-        description: "Single Page Application for finding and saving curated song recommendations. ",
-        tech: "Javascript • Ruby on Rails • ActiveRecord",
-        github: "https://github.com/alliecaton/jsmusicrandomizer", 
-        demo: "http://plausible-nest.surge.sh/"  
-    }, 
-    {
-        id: 3,
-        title: "Shelvd", 
-        description: "Book tracking application with functionality for organizing books as well as a chat feature for connecting with other users. ",
-        tech: "Ruby on Rails • ActiveRecord",
-        github: "https://github.com/alliecaton/shelvd", 
-        demo: "https://shelvd-app.herokuapp.com/" 
-    }, 
-
+	{
+		id: 1,
+		title: 'MarketEdge',
+		description:
+			'Data dashboard for B2G companies to track active RFP procurement opportunities and other vital information for their sales & marketing efforts. Link below links to a marketing website for the MarketEdge application, as the application itself is a paid product.',
+		tech: 'Vue3 + Composition API • Piñia • Laravel • Cypress',
+		demo: 'https://theatlasmarketedge.com/',
+	},
+	{
+		id: 2,
+		title: 'The Atlas',
+		description:
+			'LinkedIn style community for local government officials to connect and share resources. Includes posting functionality, private messaging, and case study article creator/editor and viewer.',
+		tech: 'Vue + Options API • Nuxt • Vuex • Cypress',
+		demo: 'https://the-atlas.com',
+	},
+	{
+		id: 3,
+		title: 'music-r',
+		description:
+			'Single Page Application for finding and saving curated song recommendations.',
+		tech: 'Javascript • Ruby on Rails • ActiveRecord',
+		github: 'https://github.com/alliecaton/jsmusicrandomizer',
+		demo: 'http://plausible-nest.surge.sh/',
+	},
 ]
