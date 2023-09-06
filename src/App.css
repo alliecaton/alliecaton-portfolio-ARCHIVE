@@ -350,3 +350,7 @@ input[type='submit']:hover {
 	background: #453f53;
 	-webkit-appearance: none;
 }
+
+.credits {
+	margin-top: 60px;
+}

@@ -6,7 +6,7 @@ const Description = () => {
 			<p>
 				<span className='dark-purple big'>function</span>
 				<span className='yellow big'>
-					aboutAllie<span className='dark-purple'>()</span>
+					&nbsp;aboutAllie<span className='dark-purple'>()</span>
 				</span>
 				<span className='dark-purple big'> {`{`}</span>
 			</p>
