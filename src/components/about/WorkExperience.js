@@ -9,14 +9,14 @@ const WorkExperience = () => {
         workExperience<span className="dark-purple">()</span>
       </span>
       <div className="indented">
-        <div className="indiv-indented">
+        <div className="indiv-indented position">
           <div>
             <span className="yellow">Freelance Developer</span>
           </div>
           <div className="dark-purple">2023 - Current</div>
         </div>
 
-        <div className="indiv-indented">
+        <div className="indiv-indented position">
           <div>
             <span className="yellow">Frontend Software Engineer •</span>
             <span className="teal"> The Atlas for Cities</span>
@@ -24,7 +24,7 @@ const WorkExperience = () => {
           <div className="dark-purple">2020 - 2023</div>
         </div>
 
-        <div className="indiv-indented">
+        <div className="indiv-indented position">
           <div>
             <span className="yellow">Associate Producer •</span>
             <span className="teal"> FableVision Studios</span>
@@ -32,7 +32,7 @@ const WorkExperience = () => {
           <div className="dark-purple">2019 - 2020</div>
         </div>
 
-        <div className="indiv-indented">
+        <div className="indiv-indented position">
           <div>
             <span className="yellow">Production Assistant •</span>
             <span className="teal"> FableVision Studios</span>
